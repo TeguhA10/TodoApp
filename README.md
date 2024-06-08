@@ -30,7 +30,7 @@ Untuk menjalankan proyek ini setelah diunduh dari GitHub, ikuti langkah-langkah 
 
 1. **Clone Repository**:
    ```sh
-   git clone https://github.com/username/my-project.git
+   git clone https://github.com/TeguhA10/TodoApp.git
    cd my-project
    ```
 
@@ -54,9 +54,9 @@ Untuk menjalankan proyek ini setelah diunduh dari GitHub, ikuti langkah-langkah 
    expo start
    ```
 ## Membuka Aplikasi di Perangkat atau Emulator:
-- **Gunakan aplikasi Expo Go pada perangkat mobile Anda (tersedia di iOS dan Android).
-- **Pindai kode QR yang muncul di terminal atau di browser setelah menjalankan expo start.
-- **Atau, jika Anda menggunakan emulator, pilih opsi untuk membuka di emulator yang sesuai.
+- Gunakan aplikasi Expo Go pada perangkat mobile Anda (tersedia di iOS dan Android).
+- Pindai kode QR yang muncul di terminal atau di browser setelah menjalankan expo start.
+- Atau, jika Anda menggunakan emulator, pilih opsi untuk membuka di emulator yang sesuai.
 
 
 # Welcome to your Expo app 👋
