@@ -23,7 +23,7 @@ Ini adalah aplikasi CRUD Todo App yang dibangun menggunakan React Native dengan 
 
 ## Pengalaman Pengembangan
 - Pengembangan aplikasi ini dilakukan dalam satu hari menggunakan SDK terbaru dari Expo.
-- Dalam proses pengembangan, terdapat beberapa kesulitan, terutama dalam fetching data dari AsyncStorage menggunakan Redux di backend. Pengalaman pengembang lebih banyak di bagian frontend.
+- Dalam proses pengembangan, terdapat beberapa kesulitan. Pengalaman pengembang lebih banyak di bagian frontend.
 
 ## Proses Instalasi
 Untuk menjalankan proyek ini setelah diunduh dari GitHub, ikuti langkah-langkah berikut:
