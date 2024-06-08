@@ -1,3 +1,64 @@
+# CRUD Todo App
+
+Ini adalah aplikasi CRUD Todo App yang dibangun menggunakan React Native dengan Expo. Aplikasi ini menggunakan TypeScript dan Redux untuk manajemen state CRUD, serta beberapa library pendukung lainnya. Penyimpanan data dilakukan menggunakan AsyncStorage.
+
+## Teknologi yang Digunakan
+- **React Native Expo**: Platform untuk pengembangan aplikasi mobile.
+- **TypeScript**: Untuk penulisan kode yang lebih terstruktur dan aman.
+- **Redux**: Untuk manajemen state aplikasi.
+- **AsyncStorage**: Untuk penyimpanan data lokal.
+
+## Library yang Digunakan
+- **@gorhom/bottom-sheet**: Untuk implementasi bottom sheet.
+- **react-native-modal**: Untuk modal.
+- **react-native-paper**: Untuk checkbox.
+- **react-native-animatable** dan **react-native-reanimated**: Untuk animasi, digunakan untuk memperlihatkan perbandingan penggunaan animasi.
+- **@expo/vector-icons**: Untuk ikon.
+- **Jest**: Untuk unit testing, untuk mengtes jest ketikan code ini di terminal folder project.
+  ```bash
+  npx jest
+  ```
+## Fitur Animasi
+- Animasi digunakan saat menambah dan menghapus data, menggunakan `react-native-animatable` dan `react-native-reanimated` untuk memperlihatkan perbandingan performa dan kemudahan penggunaannya.
+
+## Pengalaman Pengembangan
+- Pengembangan aplikasi ini dilakukan dalam satu hari menggunakan SDK terbaru dari Expo.
+- Dalam proses pengembangan, terdapat beberapa kesulitan, terutama dalam fetching data dari AsyncStorage menggunakan Redux di backend. Pengalaman pengembang lebih banyak di bagian frontend.
+
+## Proses Instalasi
+Untuk menjalankan proyek ini setelah diunduh dari GitHub, ikuti langkah-langkah berikut:
+
+1. **Clone Repository**:
+   ```sh
+   git clone https://github.com/username/my-project.git
+   cd my-project
+   ```
+
+2. **Instalasi Dependensi**:
+   Pastikan Anda telah menginstal Node.js dan npm atau yarn. Kemudian jalankan:
+   ```bash
+   npm install
+   ```
+   atau
+   ```bash
+   yarn install
+   ```
+3. **Instalasi Expo CLI**:
+   Jika Anda belum menginstal Expo CLI, jalankan:
+   ```bash
+   npm install -g expo-cli
+   ```
+4. **Jalankan Proyek**:
+   Untuk memulai proyek, jalankan:
+   ```bash
+   expo start
+   ```
+## Membuka Aplikasi di Perangkat atau Emulator:
+- **Gunakan aplikasi Expo Go pada perangkat mobile Anda (tersedia di iOS dan Android).
+- **Pindai kode QR yang muncul di terminal atau di browser setelah menjalankan expo start.
+- **Atau, jika Anda menggunakan emulator, pilih opsi untuk membuka di emulator yang sesuai.
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
